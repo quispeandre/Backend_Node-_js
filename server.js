@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3001;
 const corsOptions = {
   origin: [
     'http://localhost:3000', // Desarrollo local
-    'https://app-57e82e76-496f-4bb0-8eb3-420a92cfaa6c.cleverapps.io' // Producción (sin barra al final)
+    'https://app-557d508f-f322-494d-92a9-265f0de10141.cleverapps.io' // Producción (sin barra al final)
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'], // Añadido OPTIONS
   allowedHeaders: ['Content-Type', 'Authorization'],
